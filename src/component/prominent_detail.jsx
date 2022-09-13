@@ -13,9 +13,9 @@ function Detail(){
             <Formik
                 initialValues={{
                     file:"",
-                    // name:"", gender:"", religion:"",category:"",dob:"",father:"",
-                    // mother:"",spouse:"",child:"",degree:"",course:"",startyear:"",
-                    // endyear:"",mobile:[]
+                    name:"", gender:"", religion:"",category:"",dob:"",father:"",
+                    mother:"",spouse:"",child:"",degree:"",course:"",startyear:"",
+                    endyear:"",mobile:[]
                 }}
                 onSubmit={(values) =>
                     setTimeout(() => {
